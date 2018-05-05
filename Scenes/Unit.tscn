@@ -1,0 +1,112 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scripts/Unit.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/test.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Unit/medievalUnit_06.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Fonts/Kenney Mini.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Sprites/UI/grey_tickGrey.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/UI/red_tick.png" type="Texture" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10.7374, 13.7027 )
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 17
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 4 )
+_sections_unfolded = [ "Font", "Settings" ]
+
+[node name="unit" type="KinematicBody2D" index="0"]
+
+position = Vector2( 170.213, 103.209 )
+z_index = 1
+input_pickable = true
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Z Index" ]
+
+[node name="box" type="Sprite" parent="." index="0"]
+
+visible = false
+z_index = 1
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="sprite" type="Sprite" parent="." index="1"]
+
+texture = ExtResource( 3 )
+
+[node name="shape" type="CollisionShape2D" parent="." index="2"]
+
+shape = SubResource( 1 )
+_sections_unfolded = [ "Z Index" ]
+
+[node name="label" type="Label" parent="." index="3"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -21.0
+margin_top = -52.0
+margin_right = 22.0
+margin_bottom = -30.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
+text = "name"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="bar" type="TextureProgress" parent="." index="4"]
+
+visible = false
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -28.0
+margin_top = -33.0
+margin_right = 27.0
+margin_bottom = -16.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+min_value = 0.0
+max_value = 100.0
+step = 1.0
+page = 0.0
+value = 51.0
+exp_edit = false
+rounded = true
+texture_under = ExtResource( 5 )
+texture_over = null
+texture_progress = ExtResource( 6 )
+radial_fill_degrees = 360.0
+radial_center_offset = Vector2( 0, 0 )
+nine_patch_stretch = true
+stretch_margin_left = 10
+stretch_margin_top = 2
+stretch_margin_right = 10
+stretch_margin_bottom = 2
+_sections_unfolded = [ "Textures" ]
+
+[connection signal="input_event" from="." to="." method="_on_unit_input_event"]
+
+
