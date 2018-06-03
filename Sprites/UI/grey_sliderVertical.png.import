@@ -7,10 +7,7 @@ path="res://.import/grey_sliderVertical.png-9e989bf3a1d317e9b4c14c74699487c7.ste
 [deps]
 
 source_file="res://Sprites/UI/grey_sliderVertical.png"
-source_md5="f896407ef129fc01bf82dccee9cc2a69"
-
 dest_files=[ "res://.import/grey_sliderVertical.png-9e989bf3a1d317e9b4c14c74699487c7.stex" ]
-dest_md5="b56f848b2d2fbe016c8725e8abaeab44"
 
 [params]
 

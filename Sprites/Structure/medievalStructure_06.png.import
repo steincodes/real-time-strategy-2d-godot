@@ -7,10 +7,7 @@ path="res://.import/medievalStructure_06.png-eb0929e1496dc35ea0d74f2634ec057f.st
 [deps]
 
 source_file="res://Sprites/Structure/medievalStructure_06.png"
-source_md5="2ab2fe5411e3ce3dfd0bf399a9d32ca8"
-
 dest_files=[ "res://.import/medievalStructure_06.png-eb0929e1496dc35ea0d74f2634ec057f.stex" ]
-dest_md5="83c9efa9dfa5f218d7eae51f2f0cfe1c"
 
 [params]
 

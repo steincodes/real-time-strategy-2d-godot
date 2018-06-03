@@ -7,10 +7,7 @@ path="res://.import/yellow_cross.png-ee14aa8d8f8b424df8cb3c8a1a05bbbb.stex"
 [deps]
 
 source_file="res://Sprites/UI/yellow_cross.png"
-source_md5="52712c3ce996b73a89c74304ea8c882b"
-
 dest_files=[ "res://.import/yellow_cross.png-ee14aa8d8f8b424df8cb3c8a1a05bbbb.stex" ]
-dest_md5="64023b78fa8c5a9e917ccf3bfa2246c3"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/blue_boxTick.png-ccec15d4b1341bd25ae49c663af83416.stex"
 [deps]
 
 source_file="res://Sprites/UI/blue_boxTick.png"
-source_md5="326aacad6f4e36950a84e27f343dc6a3"
-
 dest_files=[ "res://.import/blue_boxTick.png-ccec15d4b1341bd25ae49c663af83416.stex" ]
-dest_md5="1256169fa21c9d3623075c630da834cc"
 
 [params]
 

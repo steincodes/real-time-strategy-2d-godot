@@ -7,10 +7,7 @@ path="res://.import/yellow_button04.png-26e19d10adf973162a03cde1121958b7.stex"
 [deps]
 
 source_file="res://Sprites/UI/yellow_button04.png"
-source_md5="74a6e9e92d1d559fe1d62989dab296cf"
-
 dest_files=[ "res://.import/yellow_button04.png-26e19d10adf973162a03cde1121958b7.stex" ]
-dest_md5="1885b40a27f6cd807b81c4d825dc1f8b"
 
 [params]
 

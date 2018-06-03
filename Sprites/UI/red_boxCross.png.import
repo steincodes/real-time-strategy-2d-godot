@@ -7,10 +7,7 @@ path="res://.import/red_boxCross.png-2d2ab45d8378a6bce1e18c3ee38bf4ce.stex"
 [deps]
 
 source_file="res://Sprites/UI/red_boxCross.png"
-source_md5="23a79790fbb1703f121f38e6ba739ceb"
-
 dest_files=[ "res://.import/red_boxCross.png-2d2ab45d8378a6bce1e18c3ee38bf4ce.stex" ]
-dest_md5="4abb175800b1dc1d56d613ae929da4a8"
 
 [params]
 

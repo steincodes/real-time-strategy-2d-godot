@@ -7,10 +7,7 @@ path="res://.import/grey_circle.png-c8e15629ac0ca49991e51842e678d64c.stex"
 [deps]
 
 source_file="res://Sprites/UI/grey_circle.png"
-source_md5="81854f64ba73b7046b92b6b9d270cf6b"
-
 dest_files=[ "res://.import/grey_circle.png-c8e15629ac0ca49991e51842e678d64c.stex" ]
-dest_md5="c438c96b994076427482fccff061d2c7"
 
 [params]
 

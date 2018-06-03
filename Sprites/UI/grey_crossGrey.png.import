@@ -7,10 +7,7 @@ path="res://.import/grey_crossGrey.png-e366a8d72d9c48f2d196ca8723c9ee7b.stex"
 [deps]
 
 source_file="res://Sprites/UI/grey_crossGrey.png"
-source_md5="614c084f17b36fbc04e0e749c7fa5503"
-
 dest_files=[ "res://.import/grey_crossGrey.png-e366a8d72d9c48f2d196ca8723c9ee7b.stex" ]
-dest_md5="734c62fca29b46caa1c211520075e701"
 
 [params]
 

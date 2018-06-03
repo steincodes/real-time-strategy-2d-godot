@@ -20,7 +20,9 @@ use_filter = false
 font_data = ExtResource( 4 )
 _sections_unfolded = [ "Font", "Settings" ]
 
-[node name="unit" type="KinematicBody2D" index="0"]
+[node name="unit" type="KinematicBody2D" index="0" groups=[
+"units",
+]]
 
 position = Vector2( 170.213, 103.209 )
 z_index = 1

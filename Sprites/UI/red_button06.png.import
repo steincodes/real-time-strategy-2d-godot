@@ -7,10 +7,7 @@ path="res://.import/red_button06.png-a8fa44e1cb6d5756a1273670ab951bfe.stex"
 [deps]
 
 source_file="res://Sprites/UI/red_button06.png"
-source_md5="6fa8cd4cad7027444d532ade0779de14"
-
 dest_files=[ "res://.import/red_button06.png-a8fa44e1cb6d5756a1273670ab951bfe.stex" ]
-dest_md5="e99b6a608abbf75696bf3e45ecc9c59b"
 
 [params]
 

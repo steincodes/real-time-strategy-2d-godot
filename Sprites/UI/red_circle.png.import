@@ -7,10 +7,7 @@ path="res://.import/red_circle.png-26f17eb52c9cc556ae01f68bf3840533.stex"
 [deps]
 
 source_file="res://Sprites/UI/red_circle.png"
-source_md5="727f68aecbd0b71464aa683776d6df4c"
-
 dest_files=[ "res://.import/red_circle.png-26f17eb52c9cc556ae01f68bf3840533.stex" ]
-dest_md5="ba05eddc9c2e7f7825e807a7f3db2b1b"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/grey_boxTick.png-eaa24f115c5648bf1ed998fa76837c33.stex"
 [deps]
 
 source_file="res://Sprites/UI/grey_boxTick.png"
-source_md5="ca19acdab7695f7531dcc8534463fea1"
-
 dest_files=[ "res://.import/grey_boxTick.png-eaa24f115c5648bf1ed998fa76837c33.stex" ]
-dest_md5="ad25413cf91d7da0718b3393daa40550"
 
 [params]
 

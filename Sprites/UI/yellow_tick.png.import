@@ -7,10 +7,7 @@ path="res://.import/yellow_tick.png-7cf0e4da09a646864eda64e2c1d6ac76.stex"
 [deps]
 
 source_file="res://Sprites/UI/yellow_tick.png"
-source_md5="6db5354582c8e7508803d0474ee3532d"
-
 dest_files=[ "res://.import/yellow_tick.png-7cf0e4da09a646864eda64e2c1d6ac76.stex" ]
-dest_md5="0250b568bd46591d30806da61bf73bba"
 
 [params]
 

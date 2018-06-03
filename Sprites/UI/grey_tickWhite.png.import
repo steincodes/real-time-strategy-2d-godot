@@ -7,10 +7,7 @@ path="res://.import/grey_tickWhite.png-8cb772908780972c56ddd405995eb23e.stex"
 [deps]
 
 source_file="res://Sprites/UI/grey_tickWhite.png"
-source_md5="0cda0b34306720d0260860dbe1085637"
-
 dest_files=[ "res://.import/grey_tickWhite.png-8cb772908780972c56ddd405995eb23e.stex" ]
-dest_md5="438634bc65a66cdaa286c6976fe8d066"
 
 [params]
 

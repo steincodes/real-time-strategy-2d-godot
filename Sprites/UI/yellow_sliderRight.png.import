@@ -7,10 +7,7 @@ path="res://.import/yellow_sliderRight.png-c301e539a6beff86bf6c80293374d0de.stex
 [deps]
 
 source_file="res://Sprites/UI/yellow_sliderRight.png"
-source_md5="a35dd3954f103c261e740a7a23da9f52"
-
 dest_files=[ "res://.import/yellow_sliderRight.png-c301e539a6beff86bf6c80293374d0de.stex" ]
-dest_md5="61c5c97601f67ea1a8dca5362eaaf554"
 
 [params]
 

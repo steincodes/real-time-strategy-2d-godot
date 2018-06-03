@@ -7,10 +7,7 @@ path="res://.import/blue_panel.png-8272d60a0851d5319d1e06fa2bae8deb.stex"
 [deps]
 
 source_file="res://Sprites/UI/blue_panel.png"
-source_md5="d735064d002ddf6693393abc71491aa2"
-
 dest_files=[ "res://.import/blue_panel.png-8272d60a0851d5319d1e06fa2bae8deb.stex" ]
-dest_md5="91901f70d022d35d586f5c9dc58f5fe8"
 
 [params]
 

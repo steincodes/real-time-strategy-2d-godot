@@ -7,10 +7,7 @@ path="res://.import/dropdownTop.png-e93eeacf5a07463edd410abd1755e4ee.stex"
 [deps]
 
 source_file="res://Sprites/UI/dropdownTop.png"
-source_md5="ff931a11cac806207148128877f6b6af"
-
 dest_files=[ "res://.import/dropdownTop.png-e93eeacf5a07463edd410abd1755e4ee.stex" ]
-dest_md5="178f7fb9bbc6bc139b6fd4529eff0d23"
 
 [params]
 

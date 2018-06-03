@@ -7,10 +7,7 @@ path="res://.import/medievalEnvironment_09.png-df975290c95871a0b8d7f7e01b717a33.
 [deps]
 
 source_file="res://Sprites/Environment/medievalEnvironment_09.png"
-source_md5="cbb441eed373e09f4f7aa0e5802ff449"
-
 dest_files=[ "res://.import/medievalEnvironment_09.png-df975290c95871a0b8d7f7e01b717a33.stex" ]
-dest_md5="ce26bf2fc12d9f90a4eb13cd0b7fd6f3"
 
 [params]
 

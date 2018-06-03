@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Sprites/UI/yellow_button07.png" type="Texture" id=1]
-[ext_resource path="res://Sprites/UI/yellow_button08.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/UI/yellow_button11.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/UI/yellow_button06.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/UI/blue_button07.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/UI/blue_button08.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/UI/blue_button11.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/UI/blue_button06.png" type="Texture" id=4]
 [ext_resource path="res://Scripts/ButtonPressed.gd" type="Script" id=5]
 [ext_resource path="res://Sprites/Fonts/Kenney Mini.ttf" type="DynamicFontData" id=6]
 

@@ -7,10 +7,7 @@ path="res://.import/grey_arrowUpGrey.png-1aacdac9c085a0933ed08f75b7659f42.stex"
 [deps]
 
 source_file="res://Sprites/UI/grey_arrowUpGrey.png"
-source_md5="899db7b15022a63c54ca2856579901f8"
-
 dest_files=[ "res://.import/grey_arrowUpGrey.png-1aacdac9c085a0933ed08f75b7659f42.stex" ]
-dest_md5="dd68b6a462d918046dc13742ffe2dab8"
 
 [params]
 

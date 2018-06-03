@@ -7,10 +7,7 @@ path="res://.import/grey_boxCheckmark.png-362cde94555d69cc7d44df493e1456fa.stex"
 [deps]
 
 source_file="res://Sprites/UI/grey_boxCheckmark.png"
-source_md5="881e01ac96d239c7a4778bda942213c5"
-
 dest_files=[ "res://.import/grey_boxCheckmark.png-362cde94555d69cc7d44df493e1456fa.stex" ]
-dest_md5="836195d4f33df7634c4b98333d72afad"
 
 [params]
 

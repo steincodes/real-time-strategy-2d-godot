@@ -7,10 +7,7 @@ path="res://.import/medievalTile_15.png-c5be92dfbe4e05b4dc026da84b3d585c.stex"
 [deps]
 
 source_file="res://Sprites/Tile/medievalTile_15.png"
-source_md5="42a94e5f7058a825b1b3699cc56aaf5e"
-
 dest_files=[ "res://.import/medievalTile_15.png-c5be92dfbe4e05b4dc026da84b3d585c.stex" ]
-dest_md5="2c7f8e17d481493e78ea300a36c57555"
 
 [params]
 
