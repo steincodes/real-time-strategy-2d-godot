@@ -66,6 +66,9 @@ func area_selected(obj):
 	for u in ut:
 		u.selected = not u.selected
 
+func start_move_selection(obj):
+	for un in selected_units:
+		un.move_unit(obj.move_to_point)
 
 func _ready():
 	units = get_tree().get_nodes_in_group("units")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scripts/WorldManager.gd" type="Script" id=1]
 [ext_resource path="res://Tilesets/tileset_env.res" type="TileSet" id=2]
@@ -9,7 +9,13 @@
 [ext_resource path="res://Scenes/Unit.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Sprites/UI/red_panel.png" type="Texture" id=8]
 
-[sub_resource type="CanvasItemMaterial" id=1]
+[sub_resource type="NavigationPolygon" id=1]
+
+vertices = PoolVector2Array( 378.881, 351.832, 477.626, 260.761, 481.597, 351.227, 378.416, 428.285, 769.458, 1705.33, -730.526, 1715.3, -687.431, -141.107, 317.475, 427.914, 550.942, 350.142, 547.017, 252.14, 2386.92, 279.256, 2403.13, 1705.72, -684.947, -549.094, 2404.65, -550.926, 503.47, 224.742, 346.931, 321.72, 315.724, 351.447 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ), PoolIntArray( 4, 5, 6, 7 ), PoolIntArray( 8, 9, 10, 11, 4 ), PoolIntArray( 6, 12, 13, 10, 14 ), PoolIntArray( 1, 0, 15 ), PoolIntArray( 2, 8, 4, 3 ), PoolIntArray( 7, 3, 4 ), PoolIntArray( 16, 7, 6 ), PoolIntArray( 15, 16, 6 ), PoolIntArray( 1, 15, 6, 14 ), PoolIntArray( 14, 10, 9 ) ]
+outlines = [ PoolVector2Array( -684.947, -549.094, 2404.65, -550.926, 2386.92, 279.256, 2403.13, 1705.72, 769.458, 1705.33, -730.526, 1715.3, -687.431, -141.107 ), PoolVector2Array( 477.626, 260.761, 481.597, 351.227, 550.942, 350.142, 547.017, 252.14, 503.47, 224.742 ), PoolVector2Array( 315.724, 351.447, 346.931, 321.72, 378.881, 351.832, 378.416, 428.285, 317.475, 427.914 ) ]
+
+[sub_resource type="CanvasItemMaterial" id=2]
 
 render_priority = 0
 blend_mode = 0
@@ -19,7 +25,7 @@ light_mode = 0
 
 rotation = -0.00608964
 script = ExtResource( 1 )
-_sections_unfolded = [ "GUI", "Physics", "Render Target", "Shadow Atlas" ]
+_sections_unfolded = [ "GUI", "Physics", "Render Target", "Shadow Atlas", "Transform" ]
 
 [node name="Env" type="TileMap" parent="." index="0"]
 
@@ -67,7 +73,20 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="Camera2D" type="Camera2D" parent="." index="2"]
+[node name="nav" type="Navigation2D" parent="." index="2"]
+
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="polygon" type="NavigationPolygonInstance" parent="nav" index="0"]
+
+visible = false
+navpoly = SubResource( 1 )
+enabled = true
+
+[node name="Camera2D" type="Camera2D" parent="." index="3"]
 
 anchor_mode = 1
 rotating = false
@@ -92,6 +111,7 @@ editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
 script = ExtResource( 4 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_lock_": true
 }
@@ -104,50 +124,74 @@ zoomMax = 3.0
 marginX = 200.0
 marginY = 200.0
 
-[node name="Building" type="Node2D" parent="." index="3"]
+[node name="Building" type="Node2D" parent="." index="4"]
 
 editor/display_folded = true
 position = Vector2( 511.862, 294.867 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="medievalStructure_01" type="Sprite" parent="Building" index="0"]
 
-material = SubResource( 1 )
+material = SubResource( 2 )
 position = Vector2( 0, -32 )
 texture = ExtResource( 5 )
 _sections_unfolded = [ "Material" ]
 
 [node name="medievalStructure_05" type="Sprite" parent="Building" index="1"]
 
-material = SubResource( 1 )
+material = SubResource( 2 )
 position = Vector2( 0, 32 )
 texture = ExtResource( 6 )
 _sections_unfolded = [ "Material" ]
 
-[node name="Unit1" parent="." index="4" instance=ExtResource( 7 )]
+[node name="Building2" type="Node2D" parent="." index="5"]
 
-position = Vector2( 239.33, 55.2091 )
+editor/display_folded = true
+position = Vector2( 347.297, 379.989 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="medievalStructure_01" type="Sprite" parent="Building2" index="0"]
+
+material = SubResource( 2 )
+position = Vector2( 0, -32 )
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Material" ]
+
+[node name="medievalStructure_05" type="Sprite" parent="Building2" index="1"]
+
+material = SubResource( 2 )
+position = Vector2( 0, 32 )
+texture = ExtResource( 6 )
+_sections_unfolded = [ "Material" ]
+
+[node name="Unit1" parent="." index="6" instance=ExtResource( 7 )]
+
+position = Vector2( 304.661, 103.597 )
 _sections_unfolded = [ "Transform", "Z Index" ]
 
-[node name="Unit2" parent="." index="5" instance=ExtResource( 7 )]
+[node name="Unit2" parent="." index="7" instance=ExtResource( 7 )]
 
 position = Vector2( -265.364, 87.209 )
 
-[node name="Unit3" parent="." index="6" instance=ExtResource( 7 )]
+[node name="Unit3" parent="." index="8" instance=ExtResource( 7 )]
 
 position = Vector2( -52.9081, -136.438 )
 
-[node name="Unit4" parent="." index="7" instance=ExtResource( 7 )]
+[node name="Unit4" parent="." index="9" instance=ExtResource( 7 )]
 
 position = Vector2( -357.633, -104.244 )
 
-[node name="Unit5" parent="." index="8" instance=ExtResource( 7 )]
+[node name="Unit5" parent="." index="10" instance=ExtResource( 7 )]
 
 position = Vector2( 271.33, -164.486 )
 
-[node name="UI" type="CanvasLayer" parent="." index="9"]
+[node name="UI" type="CanvasLayer" parent="." index="11"]
 
 layer = 1
 offset = Vector2( 0, 0 )
